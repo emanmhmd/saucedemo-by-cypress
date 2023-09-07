@@ -1,0 +1,17 @@
+{
+  "name": "cypress_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "Login": "npx cypress run --spec '/home/emanmhmd/Documents/Projects/Cypress_project/cypress/e2e/Test_login.cy.js'",
+    "Checkout":"npx cypress run --spec '/home/emanmhmd/Documents/Projects/Cypress_project/cypress/e2e/Test_checkout.cy.js'",
+    "Cart":"npx cypress run --spec '/home/emanmhmd/Documents/Projects/Cypress_project/cypress/e2e/Test_cart.cy.js'"
+  },  
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.1.0"
+  }
+}
