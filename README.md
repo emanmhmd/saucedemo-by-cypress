@@ -1,6 +1,6 @@
 # Saucedemo web tesing by Cypress
 
-Welcome to the "Saucedemo by Cypress" repository—a comprehensive collection of automated tests designed to ensure the reliability of the Saucedemo web application. Powered by Cypress and JavaScript, my test suite meticulously examines various facets of the application, allowing you to confidently assess its functionality.  
+"Saucedemo by Cypress" repository—a comprehensive collection of automated tests designed to ensure the reliability of the Saucedemo web application. Powered by Cypress and JavaScript, my test suite meticulously examines various facets of the application, allowing you to confidently assess its functionality.  
   
 
 ## Test Cases  
