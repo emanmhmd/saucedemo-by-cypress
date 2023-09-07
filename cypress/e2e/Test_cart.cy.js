@@ -14,13 +14,13 @@ describe('Cart Test Cases', () => {
     // afterEach(() => {
     //     validlogout();
     //   })
-    it('Test Add items', () => {
+    it('Test Add items to cart', () => {
       //adding some items to cart
       cart_object.add_items();
       //my custom command to clear cashe after each test
      //cy.clear_npm_cache();
     });
-    it('Test Remove items', ()=>{
+    it('Test Remove items from cart', ()=>{
       //adding some items to cart
       cart_object.add_items();
       //removing some items from cart
