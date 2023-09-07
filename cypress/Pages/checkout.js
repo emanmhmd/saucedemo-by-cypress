@@ -1,6 +1,6 @@
 
 //class implementations of checkout actions
-class Checkout{
+export default class Checkout{
     //navigate to cart page
     navigate_to_cart(){
         cy.get('.shopping_cart_link').click();
