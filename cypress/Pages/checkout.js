@@ -1,11 +1,10 @@
 
 //class implementations of checkout actions
 export default class Checkout{
-    //navigate to cart page
+    //navigate to cart page and click on checkout 
     navigate_to_cart(){
         cy.get('.shopping_cart_link').click();
-        cy.get('[data-test="checkout"]').click();
-
+        cy.get('[data-test="checkout"]').click()
     }
     //fill personal information of the user 
     fill_info(){
@@ -18,10 +17,13 @@ export default class Checkout{
         //click on continue button
         cy.get('[data-test="continue"]').click();
     }
+    //finish shopping and assert on confirmation message
     finish_shopping(){
         cy.get('[data-test="finish"]').click();
         //doing assert on comfirmation message
         cy.get('.complete-text').should('be.visible').and('contain', 'Your order has been dispatched, and will arrive just as fast as the pony can get there!');
+        //navigate back to home
+        cy.get('[data-test="back-to-products"]').click();
     }
     
 }

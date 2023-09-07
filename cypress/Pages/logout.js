@@ -12,7 +12,9 @@ class Logout{
     }
 
 }
+//create object of logout class
 const logout_object = new Logout();
+//function to logout
 export function validlogout(){
     logout_object.open_side_menu();
     logout_object.click_on_logout();

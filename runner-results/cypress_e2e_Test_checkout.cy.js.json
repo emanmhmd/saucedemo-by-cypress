@@ -1,0 +1,10 @@
+{
+  "suites": 1,
+  "tests": 1,
+  "passes": 1,
+  "pending": 0,
+  "failures": 0,
+  "start": "2023-09-07T11:55:10.011Z",
+  "duration": 5911,
+  "file": "cypress/e2e/Test_checkout.cy.js"
+}

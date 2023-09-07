@@ -6,7 +6,7 @@ class Login{
   openurl(){
       //using fixtures to get data from json file
       cy.fixture('data.json').then((data)=>{
-          let websiteurl=data.url;
+      let websiteurl=data.url;
       cy.visit(websiteurl);
   })
   }
@@ -14,8 +14,7 @@ class Login{
   enterusername(){
       //using fixtures to get data from json file
       cy.fixture('data.json').then((data)=>{
-          let user=data.credentials.username;
-     
+      let user=data.credentials.username;
       cy.get('[data-test="username"]').type(user);
   })
   }
@@ -24,7 +23,6 @@ class Login{
       //using fixtures to get data from json file
       cy.fixture('data.json').then((data)=>{
          let pass=data.credentials.password;
-     
       cy.get('[data-test="password"]').type(pass);
   })
 } 

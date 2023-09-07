@@ -23,3 +23,17 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+
+// Cypress.Commands.add('clear_npm_cache', () => {
+//     cy.exec('npm cache clean --force', { timeout: 60000 }); // Adjust the timeout as needed
+//   });
+
+
+//   beforeEach(() => {
+//     // Clear browser's caches and cookies
+//     cy.clearCookies();
+//     cy.clearLocalStorage();
+//     cy.clear_npm_cache();
+//   });
+  

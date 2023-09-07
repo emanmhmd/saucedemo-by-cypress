@@ -1,0 +1,10 @@
+{
+  "suites": 1,
+  "tests": 2,
+  "passes": 2,
+  "pending": 0,
+  "failures": 0,
+  "start": "2023-09-07T11:55:14.414Z",
+  "duration": 6020,
+  "file": "cypress/e2e/Test_cart.cy.js"
+}
