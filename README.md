@@ -18,7 +18,7 @@ The test cases included in this project are:
   
 You can watch a sample demo of the tests here .  
 
-https://github.com/emanmhmd/saucedemo-by-cypress/assets/63087099/79729da6-e32e-4487-a61e-41be4d6af92d
+https://github.com/emanmhmd/saucedemo-by-cypress/assets/63087099/645ac901-18fe-4a8c-a90b-e25541bc2851
 
 
 ## Environment  
