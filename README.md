@@ -26,7 +26,7 @@ https://github.com/emanmhmd/saucedemo-by-cypress/assets/63087099/645ac901-18fe-4
 - **Cypress Version**: 13.1.0 (stable)  
 - **System Platform**: Linux (Ubuntu 22.04)
 - **Browser**: Chrome116(headless)    
-- **Node Version**::   v18.17.1  
+- **Node Version**:   v18.17.1  
 
 ## Getting Started  
 
