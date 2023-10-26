@@ -1,6 +1,6 @@
 # Saucedemo web tesing by Cypress
 
-Welcome to the "Saucedemo by Cypress" repository—a comprehensive collection of automated tests designed to ensure the reliability of the Saucedemo web application. Powered by Cypress and JavaScript, my test suite meticulously examines various facets of the application, allowing you to confidently assess its functionality.  
+"Saucedemo by Cypress" repository—a collection of automated tests designed to ensure the reliability of the Saucedemo web application. Powered by Cypress and JavaScript, my test suite meticulously examines various facets of the application, allowing you to confidently assess its functionality.  
   
 
 ## Test Cases  
@@ -18,7 +18,7 @@ The test cases included in this project are:
   
 You can watch a sample demo of the tests here .  
 
-https://github.com/emanmhmd/saucedemo-by-cypress/assets/63087099/79729da6-e32e-4487-a61e-41be4d6af92d
+https://github.com/emanmhmd/saucedemo-by-cypress/assets/63087099/645ac901-18fe-4a8c-a90b-e25541bc2851
 
 
 ## Environment  
@@ -26,7 +26,7 @@ https://github.com/emanmhmd/saucedemo-by-cypress/assets/63087099/79729da6-e32e-4
 - **Cypress Version**: 13.1.0 (stable)  
 - **System Platform**: Linux (Ubuntu 22.04)
 - **Browser**: Chrome116(headless)    
-- **Node Version**::   v18.17.1  
+- **Node Version**:   v18.17.1  
 
 ## Getting Started  
 
